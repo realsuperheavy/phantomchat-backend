@@ -540,6 +540,7 @@ URI     : https://colorlib.com
 <div class="light-bg py-5" id="contact">
     <div class="container">
         <div class="row">
+            CONTACT ME
             <?php /*
             <div class="col-lg-6 text-center text-lg-left">
 
