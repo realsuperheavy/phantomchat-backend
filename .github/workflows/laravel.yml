@@ -1,4 +1,4 @@
-name: PhantomChatBackend
+name: phantomchat-tests
 
 on:
   push:
