@@ -48,6 +48,7 @@ class DeleteDayOldImagesCommand extends Command
         if (Storage::exists($directoryPath)) {
             Storage::deleteDirectory($directoryPath);
             $this->info('Directory deleted');
+            return Command::SUCCESS;
         }
 
         $this->info('Directory not deleted');
